@@ -23,17 +23,21 @@ const Gender = {
 };
 
 export default class SignUpForm extends Component {
-  state = {
-    login: '',
-    email: '',
-    password: '',
-    agreed: false,
-    gender: null,
-    age: '',
-    errors: null,
-  };
-
   loginInputId = shortid.generate();
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      login: '',
+      email: '',
+      password: '',
+      agreed: false,
+      gender: null,
+      age: '',
+      errors: null,
+    };
+  }
 
   handleChange = e => {
     const { name, value, type, checked } = e.target;
@@ -85,6 +89,7 @@ export default class SignUpForm extends Component {
 
   render() {
     const { login, email, password, agreed, gender, age, errors } = this.state;
+
     return (
       <form onSubmit={this.handleSubmit}>
         <label htmlFor={this.loginInputId}>
@@ -99,7 +104,7 @@ export default class SignUpForm extends Component {
           {errors && <ErrorNotification label={errors.login} />}
         </label>
         <br />
-        <label>
+        <label htmlFor={this.loginInputId}>
           Email
           <input
             type="email"
@@ -110,7 +115,7 @@ export default class SignUpForm extends Component {
           {errors && <ErrorNotification label={errors.email} />}
         </label>
         <br />
-        <label>
+        <label htmlFor={this.loginInputId}>
           Password
           <input
             type="password"
@@ -121,7 +126,7 @@ export default class SignUpForm extends Component {
           {errors && <ErrorNotification label={errors.password} />}
         </label>
         <br />
-        <label>
+        <label htmlFor={this.loginInputId}>
           Agree to terms
           <input
             type="checkbox"
@@ -133,7 +138,7 @@ export default class SignUpForm extends Component {
         <br />
         <section>
           <h2>Choose your gender</h2>
-          <label>
+          <label htmlFor={this.loginInputId}>
             Male
             <input
               type="radio"
@@ -143,7 +148,7 @@ export default class SignUpForm extends Component {
               onChange={this.handleChange}
             />
           </label>
-          <label>
+          <label htmlFor={this.loginInputId}>
             Female
             <input
               type="radio"
@@ -155,7 +160,7 @@ export default class SignUpForm extends Component {
           </label>
         </section>
         <br />
-        <label>
+        <label htmlFor={this.loginInputId}>
           Choose your age group
           <select name="age" value={age} onChange={this.handleChange}>
             <option value="" disabled>
