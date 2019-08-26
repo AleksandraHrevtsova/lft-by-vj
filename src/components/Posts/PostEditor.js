@@ -1,10 +1,19 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import PrioritySelector from './PrioritySelector';
+import Priority from '../../utils/Priority';
 import classes from './PostEditor.module.css';
 
+const options = Object.values(Priority);
+
 export default class PostEditor extends Component {
+  static propTypes = {
+    onAddPost: PropTypes.func.isRequired,
+  };
+
   state = {
     text: '',
-    priority: 'normal',
+    priority: Priority.NORMAL,
   };
 
   handleChange = e => {
@@ -16,13 +25,18 @@ export default class PostEditor extends Component {
   handleSubmit = e => {
     e.preventDefault();
 
-    console.log(this.state);
+    this.props.onAddPost({ ...this.state });
+    this.setState({
+      text: '',
+      priority: Priority.NORMAL,
+    });
   };
 
   render() {
     const { text, priority } = this.state;
+
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form className={classes.form} onSubmit={this.handleSubmit}>
         <input
           className={classes.input}
           type="text"
@@ -31,13 +45,13 @@ export default class PostEditor extends Component {
           onChange={this.handleChange}
           placeholder="Enter poet content..."
         />
-        <label>
+        <label className={classes.label}>
           Select tast priority:
-          <select name="priority" value={priority} onChange={this.handleChange}>
-            <option value="low">Low</option>
-            <option value="normal">Normal</option>
-            <option value="high">High</option>
-          </select>
+          <PrioritySelector
+            options={options}
+            value={priority}
+            onChange={this.handleChange}
+          />
         </label>
 
         <button type="submit">Create</button>

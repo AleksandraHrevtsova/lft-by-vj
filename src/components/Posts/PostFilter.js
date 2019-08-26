@@ -1,10 +1,20 @@
-import React, { Component } from 'react';
-import classes from './PostEditor.module.css';
+import React from 'react';
+import PropTypes from 'prop-types';
+import classes from './PostFilter.module.css';
 
-export default class PostFilter extends Component {
-  state = {};
+const PostFilter = ({ value, onChangeFilter }) => (
+  <input
+    type="text"
+    className={classes.input}
+    value={value}
+    onChange={onChangeFilter}
+    placeholder="Type to filter posts..."
+  />
+);
 
-  render() {
-    return <div>erjfrej</div>;
-  }
-}
+PostFilter.propTypes = {
+  value: PropTypes.string.isRequired,
+  onChangeFilter: PropTypes.func.isRequired,
+};
+
+export default PostFilter;

@@ -1,27 +1,15 @@
 {
   "files": {
-    "main.css": "/lft-by-vj/static/css/main.e91cfcd3.chunk.css",
-    "main.js": "/lft-by-vj/static/js/main.b9bd05ce.chunk.js",
-    "main.js.map": "/lft-by-vj/static/js/main.b9bd05ce.chunk.js.map",
+    "main.css": "/lft-by-vj/static/css/main.6ee176ab.chunk.css",
+    "main.js": "/lft-by-vj/static/js/main.7f09b923.chunk.js",
+    "main.js.map": "/lft-by-vj/static/js/main.7f09b923.chunk.js.map",
     "runtime~main.js": "/lft-by-vj/static/js/runtime~main.d5a06710.js",
     "runtime~main.js.map": "/lft-by-vj/static/js/runtime~main.d5a06710.js.map",
-    "static/js/2.ccfbcf18.chunk.js": "/lft-by-vj/static/js/2.ccfbcf18.chunk.js",
-    "static/js/2.ccfbcf18.chunk.js.map": "/lft-by-vj/static/js/2.ccfbcf18.chunk.js.map",
+    "static/js/2.4fed6ec2.chunk.js": "/lft-by-vj/static/js/2.4fed6ec2.chunk.js",
+    "static/js/2.4fed6ec2.chunk.js.map": "/lft-by-vj/static/js/2.4fed6ec2.chunk.js.map",
     "index.html": "/lft-by-vj/index.html",
-    "precache-manifest.21ea57a8e02d9cffaad556f0ac41f1fb.js": "/lft-by-vj/precache-manifest.21ea57a8e02d9cffaad556f0ac41f1fb.js",
+    "precache-manifest.731a9e82152962c9058827c85cd040c5.js": "/lft-by-vj/precache-manifest.731a9e82152962c9058827c85cd040c5.js",
     "service-worker.js": "/lft-by-vj/service-worker.js",
-    "static/css/main.e91cfcd3.chunk.css.map": "/lft-by-vj/static/css/main.e91cfcd3.chunk.css.map",
-    "static/media/add-24px.96481502.svg": "/lft-by-vj/static/media/add-24px.96481502.svg",
-    "static/media/arrow_back.3be5736b.svg": "/lft-by-vj/static/media/arrow_back.3be5736b.svg",
-    "static/media/arrow_down-24px.5633ea06.svg": "/lft-by-vj/static/media/arrow_down-24px.5633ea06.svg",
-    "static/media/clear-24px.73617752.svg": "/lft-by-vj/static/media/clear-24px.73617752.svg",
-    "static/media/date_range_black_24px.db3fe99e.svg": "/lft-by-vj/static/media/date_range_black_24px.db3fe99e.svg",
-    "static/media/hrn.9190a63f.svg": "/lft-by-vj/static/media/hrn.9190a63f.svg",
-    "static/media/logo.c2fc93dc.svg": "/lft-by-vj/static/media/logo.c2fc93dc.svg",
-    "static/media/logout.4bcd805a.svg": "/lft-by-vj/static/media/logout.4bcd805a.svg",
-    "static/media/menu-24px.4e796dac.svg": "/lft-by-vj/static/media/menu-24px.4e796dac.svg",
-    "static/media/rub.932fd272.svg": "/lft-by-vj/static/media/rub.932fd272.svg",
-    "static/media/russia.f8e95c0c.svg": "/lft-by-vj/static/media/russia.f8e95c0c.svg",
-    "static/media/ukraine.2427465f.svg": "/lft-by-vj/static/media/ukraine.2427465f.svg"
+    "static/css/main.6ee176ab.chunk.css.map": "/lft-by-vj/static/css/main.6ee176ab.chunk.css.map"
   }
 }

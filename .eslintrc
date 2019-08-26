@@ -27,12 +27,23 @@
   "rules": {
     "no-console": 1,
     "linebreak-style": ["error", "unix"],
+    "jsx-a11y/no-onchange": 0,
+    "jsx-a11y/label-has-associated-control": 0,
     "react/jsx-filename-extension": [1, {
       "extensions": [".js", ".jsx"]
     }],
-    "jsx-a11y/no-onchange": 0,
-    "import/no-extraneous-dependencies": ["error", {
-      "devDependencies": true
+    "react/jsx-props-no-spreading": [{
+      "html": ["ignore", "enforce"],
+      "custom": ["ignore", "enforce"],
+      "exceptions": ["string"]
+    }],
+    "react/static-property-placement": ["enabled", "string", {
+      "childContextTypes": ["string"],
+      "contextTypes": ["string"],
+      "contextType": ["string"],
+      "defaultProps": ["string"],
+      "displayName": ["string"],
+      "propTypes": ["string"],
     }],
     "react/destructuring-assignment": [
       2,
