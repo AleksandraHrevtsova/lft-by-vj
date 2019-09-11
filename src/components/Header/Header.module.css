@@ -1,17 +1,229 @@
 .header_top,
 .header_middle,
 .header_bottom {
-  border: 1px solid red;
-  background: black;
+  /* border: 1px solid red; */
+  /* background: black; */
   color: white;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  font-family: "Comfortaa-Medium";
+  /* font-weight: 700; */
+}
+
+.font1 {
+  font-family: "AmaticSC-Bold";
+  color: rgb(223, 84, 149);
+}
+
+.font2 {
+  font-family: "AmaticSC-Regular";
+  color: rgb(134, 48, 88);
+}
+
+.font3 {
+  font-family: "Andika-Regular";
+  color: rgb(235, 110, 168);
+}
+
+.font4 {
+  font-family: "BadScript-Regular";
+  color: rgb(38, 98, 126);
+}
+
+.font5 {
+  font-family: "Caveat-Bold";
+  color: rgb(21, 48, 107);
+}
+
+
+.font6 {
+  font-family: "Caveat-Regular";
+  color: rgb(21, 48, 107);
+}
+
+
+.font7 {
+  font-family: "Comfortaa-Bold";
+  color: rgb(49, 145, 40);
+}
+
+
+.font8 {
+  font-family: "Comfortaa-Light";
+  color: rgb(28, 138, 114);
+}
+
+
+.font9 {
+  font-family: "Comfortaa-Medium";
+  color: rgb(143, 219, 146);
+}
+
+
+.font10 {
+  font-family: "Comfortaa-Regular";
+  color: rgb(171, 173, 36);
+}
+
+
+.font11 {
+  font-family: "Comfortaa-SemiBold";
+  color: rgb(230, 226, 28);
+}
+
+
+.font12 {
+  font-family: "Comfortaa-VariableFont_wght";
+  color: rgb(255, 124, 16);
+}
+
+
+.font13 {
+  font-family: "DaysOne-Regular";
+  color: rgb(146, 12, 52);
+}
+
+
+.font14 {
+  font-family: "DidactGothic-Regular";
+  color: rgb(160, 55, 86);
+}
+
+
+.font15 {
+  font-family: "FiraSans-Black";
+  color: rgb(207, 204, 205);
+}
+
+.font16 {
+  font-family: "FiraSans-BlackItalic";
+  color: rgb(150, 121, 131);
+}
+
+.font17 {
+  font-family: "FiraSans-Bold";
+  color: rgb(99, 97, 98);
+}
+
+.font18 {
+  font-family: "FiraSans-BoldItalic";
+  color: rgb(247, 199, 215);
+}
+
+.font19 {
+  font-family: "FiraSans-ExtraBold";
+  color: rgb(150, 82, 104);
+}
+
+.font20 {
+  font-family: "FiraSans-ExtraBoldItalic";
+  color: rgb(128, 103, 111);
+}
+
+.font21 {
+  font-family: "FiraSans-ExtraLight";
+  color: rgb(223, 119, 154);
+}
+
+.font22 {
+  font-family: "FiraSans-ExtraLightItalic";
+  color: rgb(76, 206, 211);
+}
+
+.font23 {
+  font-family: "FiraSans-Light";
+  color: rgb(125, 215, 238);
+}
+
+.font24 {
+  font-family: "FiraSans-LightItalic";
+  color: rgb(15, 153, 84);
+}
+
+.font25 {
+  font-family: "FiraSans-Medium";
+  color: rgb(58, 218, 52);
+}
+
+.font26 {
+  font-family: "FiraSans-MediumItalic";
+  color: rgb(4, 151, 41);
+}
+
+.font27 {
+  font-family: "FiraSans-Regular";
+  color: rgb(27, 112, 48);
+}
+
+.font28 {
+  font-family: "FiraSans-RegularItalic";
+  color: rgb(152, 221, 24);
+}
+
+.font29 {
+  font-family: "FiraSans-SemiBold";
+  color: rgb(230, 226, 18);
+}
+
+.font30 {
+  font-family: "FiraSans-SemiBoldItalic";
+  color: rgb(235, 186, 26);
+}
+
+.font31 {
+  font-family: "FiraSans-Thin";
+  color: rgb(196, 24, 24);
+}
+
+.font32 {
+  font-family: "FiraSans-ThinItalic";
+  color: rgb(226, 51, 51);
+}
+
+.header_top {
+  background: #56CCF2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F80ED, #56CCF2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .header_middle {
-  background: rgb(133, 28, 28);
-  color: black;
+  /* background: rgb(28, 174, 218);
+  background: #000046; */
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1CB5E0, #000046);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: rgb(196, 185, 185);
+}
+
+.header_bottom {
+  /* background: #30E8BF; */
+  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #FF8235, #30E8BF); */
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to top, #FF8235, #30E8BF); */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 500px;
+  /* background: #20002c; */
+  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #cbb4d4, #20002c); */
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #cbb4d4, #20002c); */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #141E30;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 ul {
@@ -21,28 +233,28 @@ ul {
 }
 
 /*Меню*/
-.header_bottom {
+/* .header_bottom {
   position: relative;
   width: 100%;
   /*Ширина панели меню*/
-  height: 50px;
-  font-size: 14px;
-  color: #999;
-  margin: 0 auto;
-  margin-top: 20px;
-  /*Цвет и градиент фона панели меню*/
-  background: var(--deep-black);
-  /* background: -moz-linear-gradient(top, #647db5, #395593);
+/* height: 50px;
+font-size: 14px;
+color: #999;
+margin: 0 auto;
+margin-top: 20px; */
+/*Цвет и градиент фона панели меню*/
+/* background: var(--deep-black); */
+/* background: -moz-linear-gradient(top, #647db5, #395593);
     background: -webkit-gradient(linear, left top, left bottom, from(#647db5), to(#395593));
     background-image: -o-linear-gradient(top, rgb(100, 125, 181), rgb(57, 85, 147)); */
-  text-shadow: 0 -1px 0 #111;
-  border: 1px solid #444;
-  /*Закругленные углы панели меню*/
-  border-radius: 8px;
-  -moz-border-radius: 8px;
-  -khtml-border-radius: 8px;
-  -webkit-border-radius: 8px;
-}
+/* text-shadow: 0 -1px 0 #111;
+border: 1px solid #444; */
+/*Закругленные углы панели меню*/
+/* border-radius: 8px;
+-moz-border-radius: 8px;
+-khtml-border-radius: 8px;
+-webkit-border-radius: 8px;
+} */
 
 .menu-nav ul {
   list-style: none;

@@ -1,9 +1,195 @@
 /* @font-face {
-    font-family: "GothamProBold";
-    src: url("../assets/fonts/GothamProBold/GothamProBold.eot");
-    src: url("../assets/fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
-      url("../assets/fonts/GothamProBold/GothamProBold.woff") format("woff"),
-      url("../assets/fonts/GothamProBold/GothamProBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-  } */
+  font-family: "GothamProBold";
+  src: url("../assets/fonts/GothamProBold/GothamProBold.eot");
+  src: url("../assets/fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
+    url("../assets/fonts/GothamProBold/GothamProBold.woff") format("woff"),
+    url("../assets/fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+} */
+
+@font-face {
+  font-family: "AmaticSC-Bold";
+  src: url("../assets/fonts/Amatic_SC/AmaticSC-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "AmaticSC-Regular";
+  src: url("../assets/fonts/Amatic_SC/AmaticSC-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Andika-Regular";
+  src: url("../assets/fonts/Andika/Andika-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "BadScript-Regular";
+  src: url("../assets/fonts/Bad_Script/BadScript-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Caveat-Bold";
+  src: url("../assets/fonts/Caveat/Caveat-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Caveat-Regular";
+  src: url("../assets/fonts/Caveat/Caveat-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Comfortaa-Bold";
+  src: url("../assets/fonts/Comfortaa/Comfortaa-Bold.ttf") format("truetype");
+  /* font-style: normal;
+  font-weight: bold; */
+}
+
+@font-face {
+  font-family: "Comfortaa-Light";
+  src: url("../assets/fonts/Comfortaa/Comfortaa-Light.ttf") format("truetype");
+  /* font-style: normal;
+  font-weight: 100; */
+}
+
+@font-face {
+  font-family: "Comfortaa-Medium";
+  src: url("../assets/fonts/Comfortaa/Comfortaa-Medium.ttf") format("truetype");
+  /* font-style: normal;
+  font-weight: 400; */
+}
+
+@font-face {
+  font-family: "Comfortaa-Regular";
+  src: url("../assets/fonts/Comfortaa/Comfortaa-Regular.ttf") format("truetype");
+  /* font-style: normal;
+  font-weight: normal; */
+}
+
+@font-face {
+  font-family: "Comfortaa-SemiBold";
+  src: url("../assets/fonts/Comfortaa/Comfortaa-SemiBold.ttf") format("truetype");
+  /* font-style: normal;
+  font-weight: 700; */
+}
+
+@font-face {
+  font-family: "Comfortaa-VariableFont_wght";
+  src: url("../assets/fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf") format("truetype");
+  /* font-style: normal;
+  font-weight: normal; */
+}
+
+
+@font-face {
+  font-family: "DaysOne-Regular";
+  src: url("../assets/fonts/Days_One/DaysOne-Regular.ttf") format("truetype");
+}
+
+//////
+@font-face {
+  font-family: "DidactGothic-Regular";
+  src: url("../assets/fonts/Didact_Gothic/DidactGothic-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans-Black";
+  src: url("../assets/fonts/Fira_Sans/FiraSans-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans-BlackItalic";
+  src: url("../assets/fonts/Fira_Sans/FiraSans-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans-Bold";
+  src: url("../assets/fonts/Fira_Sans/FiraSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans-BoldItalic";
+  src: url("../assets/fonts/Fira_Sans/FiraSans-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans-ExtraBold";
+  src: url("../assets/fonts/Fira_Sans/FiraSans-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans-ExtraBoldItalic";
+  src: url("../assets/fonts/Fira_Sans/FiraSans-ExtraBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans-ExtraLight";
+  src: url("../assets/fonts/Fira_Sans/FiraSans-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans-ExtraLightItalic";
+  src: url("../assets/fonts/Fira_Sans/FiraSans-ExtraLightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans-Light";
+  src: url("../assets/fonts/Fira_Sans/FiraSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans-LightItalic";
+  src: url("../assets/fonts/Fira_Sans/FiraSans-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans-Medium";
+  src: url("../assets/fonts/Fira_Sans/FiraSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans-MediumItalic";
+  src: url("../assets/fonts/Fira_Sans/FiraSans-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans-Regular";
+  src: url("../assets/fonts/Fira_Sans/FiraSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans-RegularItalic";
+  src: url("../assets/fonts/Fira_Sans/FiraSans-RegularItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans-SemiBold";
+  src: url("../assets/fonts/Fira_Sans/FiraSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans-SemiBoldItalic";
+  src: url("../assets/fonts/Fira_Sans/FiraSans-SemiBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans-Thin";
+  src: url("../assets/fonts/Fira_Sans/FiraSans-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans-ThinItalic";
+  src: url("../assets/fonts/Fira_Sans/FiraSans-ThinItalic.ttf") format("truetype");
+}
